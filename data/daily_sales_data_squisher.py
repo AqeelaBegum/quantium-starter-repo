@@ -18,8 +18,8 @@ def fileSquisher(path, squishPath):
                     #sales = price * quantity, needed to also slice price to get rid of $
                     sales = str(float(price[1:]) * int(quantity))
 
-                    date = row[3]
-                    region = row[4]
+                    date = row[3].strip()
+                    region = row[4].strip()
 
                     #putting the data together in a row
                     squishFile.write(sales+"," + date + "," + region+"\n")

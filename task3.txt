@@ -1,0 +1,3 @@
+Task 3
+- Made the basic dash app to display the sales of pink morsel
+- found that after the price increase sales were higher
