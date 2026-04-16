@@ -1,0 +1,6 @@
+Task 4
+- Learned more about dash and plotly
+- implemented a slider to filter by year
+- implemented radio buttons to filter by region
+- learned about callback
+- styled
