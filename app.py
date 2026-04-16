@@ -42,6 +42,7 @@ app.layout = html.Div(
 
     # question subtitle
     html.Div(children='Were sales higher before or after the Pink Morsel price increase on the 15th of January, 2021?', 
+        id='header',
         style={
             'textAlign': 'center',
             'color' : "#C682BB"
